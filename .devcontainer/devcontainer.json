@@ -1,0 +1,18 @@
+{
+  "name": "Expression Evaluator",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "phind.phind",
+        "Codeium.codeium",
+        "vscodevim.vim"
+      ]
+    }
+  },
+  "remoteUser": "root",
+  "overrideCommand": true,
+  "workspaceFolder": "/workspace"
+}
