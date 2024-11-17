@@ -1,0 +1,19 @@
+{
+  "name": "Expression Evaluator in Java",
+  "dockerComposeFile": "../../docker-compose.yml",
+  "service": "java-app",
+  "runServices": ["java-app"],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "phind.phind",
+        "Codeium.codeium",
+        "jasew.vscode-helix-emulation"
+      ]
+    }
+  },
+  "remoteUser": "root",
+  "overrideCommand": true,
+  "workspaceFolder": "/workspace/javacode"
+}

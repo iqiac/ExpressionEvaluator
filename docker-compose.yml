@@ -1,8 +1,15 @@
 services:
-  app:
+  java-app:
     build:
       context: .
       dockerfile: Dockerfile
-      target: dev
+      target: java-dev
+    volumes:
+      - .:/workspace
+  cs-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: cs-dev
     volumes:
       - .:/workspace

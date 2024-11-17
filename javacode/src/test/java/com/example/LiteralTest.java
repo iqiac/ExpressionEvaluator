@@ -7,8 +7,8 @@ import org.junit.Test;
 public class LiteralTest {
   @Test
   public void evaluate5() {
-    Literal literal = new Literal(42);
-    assertEquals(42, literal.evaluate());
+    Literal literal = new Literal(5);
+    assertEquals(5, literal.evaluate());
   }
 
   @Test
