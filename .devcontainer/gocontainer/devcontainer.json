@@ -1,0 +1,19 @@
+{
+  "name": "Expression Evaluator in Go",
+  "dockerComposeFile": "../../docker-compose.yml",
+  "service": "go-app",
+  "runServices": ["go-app"],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.Go",
+        "phind.phind",
+        "Codeium.codeium",
+        "jasew.vscode-helix-emulation"
+      ]
+    }
+  },
+  "remoteUser": "root",
+  "overrideCommand": true,
+  "workspaceFolder": "/workspace/gocode"
+}
